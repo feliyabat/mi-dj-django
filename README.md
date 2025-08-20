@@ -22,9 +22,10 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 - [Python 3.10+](https://www.python.org/downloads/)
 - [Django](https://www.djangoproject.com/)
 - [Git](https://git-scm.com/)
-Cómo ejecutar el proyecto
-1. Clona este repositorio:
 
+Cómo ejecutar el proyecto
+
+Clona este repositorio:
 git clone https://github.com/feliyabat/mi-dj-django.git
 cd mi-dj-django
 python -m venv venv
