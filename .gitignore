@@ -1,0 +1,25 @@
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entorno virtual
+venv/
+env/
+
+# Base de datos SQLite
+db.sqlite3
+
+# Logs
+*.log
+
+# Archivos de sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Estáticos recolectados / media (si los usas)
+staticfiles/
+media/

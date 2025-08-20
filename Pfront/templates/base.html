@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi Proyecto Django{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'pfront/css/styles.css' %}">
+<link rel="icon" href="{% static 'pfront/img/favicon.ico' %}?v=2" type="image/x-icon">
+</head>
+
+
+
+<body>
+    <!-- HEADER -->
+    <header>
+  <nav>
+    <ul>
+      <li><a href="{% url 'home' %}">Inicio</a></li>
+      <li><a href="{% url 'about' %}">Acerca de</a></li>
+      <li><a href="{% url 'contact' %}">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <!-- CONTENIDO -->
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            © {% now "Y" %} Proyecto Django
+        </div>
+    </footer>
+<script src="{% static 'pfront/js/main.js' %}"></script>
+
+</body>
+</html>
