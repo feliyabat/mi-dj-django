@@ -28,7 +28,7 @@ Cómo ejecutar el proyecto
 Clona este repositorio:
 git clone https://github.com/feliyabat/mi-dj-django.git
 cd mi-dj-django
-python -m venv venv
-venv\Scripts\activate
+source venv/bin/activate   # En Linux/Mac
+venv\Scripts\activate      # En Windows
 pip install -r requirements.txt
 python manage.py runserver
